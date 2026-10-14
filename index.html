@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Iron Habit Privacy Policy</title>
-  <meta name="description" content="Privacy Policy for the Iron Habit Android app." />
+  <meta name="description" content="Privacy Policy for the Iron Habit apps on Android and iOS." />
   <link rel="canonical" href="https://lajeshds2023.github.io/ironhabit-legal/" />
   <style>
     :root {
@@ -95,8 +95,8 @@
       </div>
       <div class="eyebrow">Iron Habit</div>
       <h1>Iron Habit Privacy Policy</h1>
-      <p>Effective date: 10 October 2026 &nbsp;·&nbsp; Last updated: 10 October 2026</p>
-      <p>App: Iron Habit &nbsp;·&nbsp; Platform: Android &nbsp;·&nbsp; <a href="https://iron-habit.com" style="color:inherit">iron-habit.com</a></p>
+      <p>Effective date: 10 October 2026 &nbsp;·&nbsp; Last updated: 14 October 2026</p>
+      <p>App: Iron Habit &nbsp;·&nbsp; Platforms: Android and iOS &nbsp;·&nbsp; <a href="https://iron-habit.com" style="color:inherit">iron-habit.com</a></p>
     </div>
   </header>
 
@@ -133,8 +133,8 @@
 
     <h2 id="who">1. Who we are</h2>
     <p>
-      Iron Habit is an Android fitness app operated by <strong>Iron Habit</strong> (“we”, “us”, “our”).
-      The app helps you browse a dumbbell-focused exercise library, log workouts and meals,
+      Iron Habit is a fitness app for Android and iOS, operated by <strong>Iron Habit</strong> (“we”, “us”, “our”).
+      The app helps you browse an exercise library, log workouts and meals,
       compute calorie and macro targets from the answers you give us, and — on paid plans —
       generate a weekly workout and meal plan with AI.
     </p>
@@ -146,12 +146,12 @@
     <h2 id="scope">2. What this policy covers</h2>
     <p>This policy applies to:</p>
     <ul>
-      <li>the Iron Habit Android application, including phone and tablet layouts;</li>
+      <li>the Iron Habit apps on Android and iOS, including phone and tablet layouts;</li>
       <li>our Firebase project that stores your account and synced data;</li>
       <li>AI features that send limited profile information and (when you scan a meal) a photo to Google’s Gemini models;</li>
-      <li>Google Play Billing, Play Asset Delivery, Play Integrity / Firebase App Check, AdMob, Crashlytics and Analytics used by the app.</li>
+      <li>the app stores you install from (Google Play on Android, the Apple App Store on iOS), in-app purchases, on-demand exercise videos, Firebase App Check, AdMob, Crashlytics and Analytics used by the apps.</li>
     </ul>
-    <p>It does not cover websites or apps we do not operate, including Google Play, Google accounts, or AdMob advertisers.</p>
+    <p>It does not cover websites or services we do not operate, including Google Play, the Apple App Store, Google or Apple accounts, or AdMob advertisers.</p>
 
     <h2 id="collect">3. Information we collect</h2>
     <p>We only collect what the app needs to run the features you use. You can skip most onboarding questions; skipped answers stay empty and we do not invent them.</p>
@@ -205,33 +205,33 @@
 
     <h3>3.6 Subscription and usage counters</h3>
     <ul>
-      <li>effective membership tier (Free, Basic, Advanced) and how it was granted (Play purchase or, in internal testing, a tester grant);</li>
-      <li>Play product ids <code>ironhabit_basic_monthly</code> and <code>ironhabit_advanced_monthly</code>;</li>
+      <li>effective membership tier (Free, Basic, Advanced) and how it was granted (a store purchase or, in internal testing, a tester grant);</li>
+      <li>the store product identifiers for Basic and Advanced (on Google Play, <code>ironhabit_basic_monthly</code> and <code>ironhabit_advanced_monthly</code>);</li>
       <li>how many AI plan rebuilds you have used this calendar month;</li>
       <li>how many food scans you have used today;</li>
       <li>whether Gemini has already written you a first AI plan (Basic includes one lifetime AI build);</li>
-      <li>purchase tokens and entitlement state that Google Play returns to the app.</li>
+      <li>purchase tokens and entitlement state that Google Play or the Apple App Store returns to the app.</li>
     </ul>
-    <p>We do not see your full payment card number. Google Play processes payment.</p>
+    <p>We do not see your full payment card number. Google Play processes payment on Android. Apple processes payment on iOS.</p>
 
     <h3>3.7 Device, diagnostics and advertising identifiers</h3>
     <ul>
-      <li><strong>Internet access</strong> and network state, so the app can reach Firebase, Play, ads and optional video fallbacks.</li>
+      <li><strong>Internet access</strong> and network state, so the app can reach Firebase, the app store, ads and optional video fallbacks.</li>
       <li><strong>Crash logs (release builds only).</strong> Firebase Crashlytics may collect stack traces, device model, OS version, and an anonymous install id when the app crashes. Collection is turned off in debug builds.</li>
       <li><strong>Analytics.</strong> The Firebase Analytics SDK is included. It can collect automatic events such as app opens, device and locale information, and an app-instance id. We do not currently log custom events from our own screens, but Google’s automatic collection still applies unless you reset advertising / analytics settings on the device.</li>
-      <li><strong>Advertising ID.</strong> The app declares the <code>AD_ID</code> permission because free and Basic tiers show Google AdMob banners. Advanced is ad-free and does not show those banners.</li>
-      <li><strong>App Check / Play Integrity.</strong> Release builds ask Google Play Integrity for a token and exchange it with Firebase App Check before AI calls. This proves the request came from our genuine Play-installed app on a certified device. Emulators and sideloaded copies typically fail this check. The token is an integrity attestation, not your workout log.</li>
-      <li><strong>Google Advertising / Play services identifiers</strong> used by AdMob, Play Billing, Play Asset Delivery and Integrity. We do not run our own location tracking.</li>
+      <li><strong>Advertising identifier.</strong> Free and Basic show Google AdMob banners. On Android the app declares the advertising-ID permission for those banners. On iOS, ads may use Apple’s advertising identifier only if you allow tracking. Advanced is ad-free and does not show those banners.</li>
+      <li><strong>App Check.</strong> Release builds exchange an integrity token with Firebase App Check before AI calls, so the request comes from a genuine install. On Android that token is from Google Play Integrity. On iOS it is from Apple App Attest. Emulators and sideloaded copies typically fail this check. The token is an integrity attestation, not your workout log.</li>
+      <li><strong>Store and advertising identifiers</strong> used by AdMob, in-app purchases, on-demand videos and App Check. We do not run our own location tracking.</li>
     </ul>
 
     <h3>3.8 What we do not collect</h3>
     <ul>
       <li>precise GPS location;</li>
       <li>contacts, SMS, call logs, or microphone audio;</li>
-      <li>a permanent camera permission — the system camera or gallery is opened only when you choose “Take a photo” or “Choose from gallery”;</li>
+      <li>a background camera — the system camera or photo library is opened only when you choose “Take a photo” or “Choose from gallery”;</li>
       <li>payment card numbers;</li>
       <li>food photos in our Firestore database;</li>
-      <li>exercise demo videos from your camera — demo clips come from our Play Asset Delivery packs (and, if configured, a streamed Musclewiki fallback).</li>
+      <li>exercise demo videos from your camera — demo clips are provided by us for the muscle group you open (and, if configured, a streamed Musclewiki fallback).</li>
     </ul>
 
     <h2 id="use">4. How we use information</h2>
@@ -244,7 +244,7 @@
       <li>estimate calories from a meal photo you submit, then let you edit every number before save;</li>
       <li>enforce daily scan limits and monthly plan-refresh limits for the tier you paid for;</li>
       <li>show or hide ads based on whether the tier is ad-free;</li>
-      <li>download only the muscle-group video pack you open, via Google Play Asset Delivery;</li>
+      <li>download or open only the muscle-group video pack you choose;</li>
       <li>restore purchases, recover from crashes, and stop abuse of the AI endpoints;</li>
       <li>delete your data when you use “Delete all my data”.</li>
     </ul>
@@ -303,7 +303,7 @@
 
     <h2 id="photos">6. Food photos</h2>
     <ul>
-      <li><strong>You choose when a photo is taken or picked.</strong> The app does not run a background camera and does not request a standing CAMERA or storage permission. Android’s system camera or photo picker opens only after you tap the control.</li>
+      <li><strong>You choose when a photo is taken or picked.</strong> The app does not run a background camera. On Android, the system camera or photo picker opens only after you tap the control, without a standing camera or storage permission. On iOS, the system asks for camera or photo-library access only when you take or choose a photo.</li>
       <li><strong>Upload for analysis:</strong> a downscaled bitmap is sent to Gemini as described above, then discarded from that request on our side when the call finishes.</li>
       <li><strong>On-device thumbnail:</strong> if you save the estimate, we may keep a small JPEG (about 320 px on the long edge) in the app’s private files so the food log can show the plate. These files are not written to Firestore.</li>
       <li><strong>Deletion:</strong> removing a logged extra deletes its thumbnail if nothing else shares it. “Delete all my data” deletes the whole local photo folder.</li>
@@ -324,8 +324,9 @@
       (including personalised ads where allowed). We do not sell your workout or meal log to advertisers.
     </p>
     <p>
-      You can reset or opt out of personalised ads in Android Settings
-      (Google → Ads, or Privacy → Ads, depending on the OS version).
+      You can reset or opt out of personalised ads in your device settings.
+      On Android that is Google → Ads, or Privacy → Ads, depending on the OS version.
+      On iOS, decline App Tracking, or turn off Allow Apps to Request to Track, in Settings → Privacy &amp; Security → Tracking.
       Google’s ad policy is at
       <a href="https://policies.google.com/technologies/ads">policies.google.com/technologies/ads</a>.
     </p>
@@ -333,13 +334,14 @@
     <h2 id="payments">8. Payments and subscriptions</h2>
     <ul>
       <li><strong>Free</strong> — catalog-built workout, 2 photo scans a day, ads, no AI meal plan.</li>
-      <li><strong>Basic (USD 2.99/month list price, charged by Play in your currency)</strong> — one AI workout and meal plan, 5 photo scans a day. Ads still show.</li>
+      <li><strong>Basic (USD 2.99/month list price, charged by the app store in your currency)</strong> — one AI workout and meal plan, 5 photo scans a day. Ads still show.</li>
       <li><strong>Advanced (USD 10.99/month list price)</strong> — plan rebuilds within the monthly allowance, 20 photo scans a day, no ads.</li>
     </ul>
     <p>
-      Purchases, cancellations, refunds and tax are handled by Google Play. Manage or cancel in
-      the Play Store. Deleting your Iron Habit account does <strong>not</strong> cancel a Play
-      subscription; you must cancel it in Play yourself.
+      Purchases, cancellations, refunds and tax are handled by the store you bought from:
+      Google Play on Android, or the Apple App Store on iOS. Manage or cancel the subscription
+      in that store. Deleting your Iron Habit account does <strong>not</strong> cancel the
+      subscription; you must cancel it in the store yourself.
     </p>
 
     <h2 id="third">9. Third-party services</h2>
@@ -380,18 +382,18 @@
           <td>Prompt text, downscaled image, App Check token</td>
         </tr>
         <tr>
-          <td>Firebase App Check + Play Integrity</td>
+          <td>Firebase App Check (Play Integrity on Android, App Attest on iOS)</td>
           <td>Block forged AI requests</td>
           <td>Integrity token, app identity</td>
         </tr>
         <tr>
-          <td>Google Play Billing</td>
+          <td>Google Play Billing (Android) and Apple In-App Purchase (iOS)</td>
           <td>Subscriptions</td>
-          <td>Play account, product id, purchase token</td>
+          <td>Store account, product id, purchase token</td>
         </tr>
         <tr>
-          <td>Google Play Asset Delivery</td>
-          <td>On-demand exercise videos (one pack per muscle group)</td>
+          <td>On-demand exercise videos (Google Play Asset Delivery on Android)</td>
+          <td>Demo videos for the muscle group you open</td>
           <td>Device and download state; not your food photos</td>
         </tr>
         <tr>
@@ -406,7 +408,7 @@
         </tr>
         <tr>
           <td>Musclewiki API (optional fallback)</td>
-          <td>Stream a demo video if a Play pack is missing and an API key is configured</td>
+          <td>Stream a demo video if a local pack is missing and an API key is configured</td>
           <td>Exercise name or slug only — not your account</td>
         </tr>
       </tbody>
@@ -420,7 +422,8 @@
       <a href="https://policies.google.com/privacy">Google Privacy Policy</a>,
       <a href="https://firebase.google.com/support/privacy">Firebase</a>,
       <a href="https://support.google.com/admob/answer/6128543">AdMob</a>,
-      <a href="https://play.google.com/about/privacy-security/">Google Play</a>.
+      <a href="https://play.google.com/about/privacy-security/">Google Play</a>,
+      <a href="https://www.apple.com/legal/privacy/">Apple</a>.
     </p>
 
     <h2 id="share">10. When we share information</h2>
@@ -442,9 +445,9 @@
     <p>
       Profile, plans, nutrition log, sessions and entitlements are stored in app-private
       DataStore / files. Food thumbnails live under the app’s private <code>food_scans</code> folder.
-      Theme and units are stored locally. Android backup is enabled at the application level;
-      shared preferences are excluded from backup, but other app-private files may be included
-      in Google’s device backup if you have backup turned on at the system level.
+      Theme and units are stored locally. If device backup is turned on, the operating system
+      may include app-private files in that backup: Google backup on Android, iCloud backup on iOS.
+      On Android, shared preferences are excluded from backup.
     </p>
     <h3>11.2 In the cloud</h3>
     <p>
@@ -458,16 +461,16 @@
     <ul>
       <li>We keep cloud data until you delete the account or the Auth user is removed.</li>
       <li>“Delete all my data” in Settings re-authenticates if needed, deletes every document under <code>users/{uid}</code> (the collections listed above), deletes the Firebase Auth account, clears local profile/plan/nutrition/sessions/entitlement (including food thumbnails), then signs you out.</li>
-      <li>Guest-only data that never left the phone is wiped from that phone when you use the same control.</li>
+      <li>Guest-only data that never left the device is wiped from that device when you use the same control.</li>
       <li>Crash and analytics records follow Google’s retention for those products.</li>
-      <li>Play purchase history remains with Google even after you delete the Iron Habit account.</li>
+      <li>Store purchase history remains with Google Play or Apple even after you delete the Iron Habit account.</li>
     </ul>
 
     <h2 id="security">12. Security</h2>
     <ul>
-      <li>Transport is HTTPS to Firebase, Play and Gemini.</li>
+      <li>Transport is HTTPS to Firebase, the app stores and Gemini.</li>
       <li>Firestore rules are owner-only for user documents, with size and type caps to limit abuse.</li>
-      <li>AI endpoints require a valid App Check token from Play Integrity on release builds.</li>
+      <li>AI endpoints require a valid App Check token on release builds (Play Integrity on Android, App Attest on iOS).</li>
       <li>Food photos are not stored in our database.</li>
       <li>No security measure is perfect. Do not put information in notes or names that you would not want stored with a fitness log.</li>
     </ul>
@@ -479,8 +482,8 @@
       <li>edit or discard AI meal estimates before they are saved, and remove logged extras;</li>
       <li>sign out (this does not delete the cloud account);</li>
       <li>use <strong>Delete all my data</strong> to erase cloud and local Iron Habit data and the Auth account;</li>
-      <li>cancel a subscription in Google Play;</li>
-      <li>opt out of personalised ads in Android settings;</li>
+      <li>cancel a subscription in Google Play or the Apple App Store, depending on where you subscribed;</li>
+      <li>opt out of personalised ads in Android or iOS settings;</li>
       <li>uninstall the app, which removes on-device files we stored in the app sandbox.</li>
     </ul>
     <p>To request a copy of what we hold, or deletion if the in-app control fails, use <a href="#contact">section 18</a>. We may need to verify it is your account.</p>
@@ -512,7 +515,7 @@
     <h2 id="transfers">16. International transfers</h2>
     <p>
       We are not a US-only company in the sense of storing data only in one country. Our
-      processors (Google Firebase, Play, Gemini, AdMob) operate globally. If you use the app
+      processors (Google Firebase, Google Play, Apple, Gemini, AdMob) operate globally. If you use the app
       from the EEA, UK or another region, your information may be processed in the United States
       or other countries. Google relies on its own transfer mechanisms (including Standard
       Contractual Clauses where applicable).
@@ -536,7 +539,8 @@
       <a href="mailto:info@iron-habit.com">info@iron-habit.com</a>
     </p>
     <p>
-      For Play subscription billing problems, use Google Play’s subscription and payments support.
+      For subscription billing problems, use the support for the store you subscribed in:
+      Google Play on Android, or Apple’s subscription and payments support on iOS.
       For a data deletion that the in-app button cannot finish (for example a network failure
       after you already signed out), email us from the same Google account you used in the app
       and ask us to erase <code>users/{your uid}</code>.
